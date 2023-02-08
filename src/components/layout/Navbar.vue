@@ -26,6 +26,7 @@
 
 <template>
 	<nav
+		v-if="authStore.user.id"
 		class="navbar is-success"
 		role="navigation"
 		aria-label="main navigation">
